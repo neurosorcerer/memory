@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd" xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1" xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1" xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2" xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2" xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <Activities>
+  <Activity Sport="Other">
+   <Id>2015-12-26T08:00:00Z</Id>
+   <Lap StartTime="2015-12-26T08:00:00Z">
+   <TotalTimeSeconds>86400</TotalTimeSeconds>
+   <DistanceMeters>0.000000</DistanceMeters>
+   <MaximumSpeed>0.000000</MaximumSpeed>
+   <Calories>0</Calories>
+   <AverageHeartRateBpm>
+    <Value>75</Value>
+   </AverageHeartRateBpm>
+   <MaximumHeartRateBpm>
+    <Value>88</Value>
+   </MaximumHeartRateBpm>
+   <Intensity>Active</Intensity>
+   <TriggerMethod>Manual</TriggerMethod>
+    <Track>
+     <Trackpoint>
+      <Time>2015-12-26T23:51:16Z</Time>
+      <HeartRateBpm>
+       <Value>74</Value>
+      </HeartRateBpm>
+     </Trackpoint>
+     <Trackpoint>
+      <Time>2015-12-27T00:31:17Z</Time>
+      <HeartRateBpm>
+       <Value>88</Value>
+      </HeartRateBpm>
+     </Trackpoint>
+     <Trackpoint>
+      <Time>2015-12-27T02:21:16Z</Time>
+      <HeartRateBpm>
+       <Value>74</Value>
+      </HeartRateBpm>
+     </Trackpoint>
+    </Track>
+    <Extensions>
+     <HeartGraph xmlns="http://www.smokycatsoftware.co.uk">
+      <WorkoutNotes>Resting heart rate: 74 - 75 - 88</WorkoutNotes>
+      <WorkoutType>1</WorkoutType>
+     </HeartGraph>
+    </Extensions>
+   </Lap>
+  </Activity>
+ </Activities>
+</TrainingCenterDatabase>

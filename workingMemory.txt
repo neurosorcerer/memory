@@ -1,0 +1,70 @@
+thought
+programming
+changing directory over to workingMemory.txt
+new Working Memory file
+(2015,12,9)
+math
+book
+easy math
+3+3=6
+(2015,12,9)
+PERSONAL
+IMPROVING HUMAN CONDITION
+WHAT IS YOUR INTENTION -AT THIS STAGE IN LIFE?
+THINK CLEARLY. HOW DO YOU INTEND TO BETTER HUMAN CONDITION? -WHAT DO YOU MEAN?-
+(2015,12,10)
+family
+song
+worrell family song
+1 2 3 people are in my family
+(2015,12,10)
+temp test
+programming
+easy
+jason
+(2015,12,11)
+dream memories (part 1)
+stoned thought
+part 1 -description of an overwherlming -in physical time alone- state of my being.
+For the last few years, more recently, I have been flooded daily by mental images and feeling/memories of past dreams. Dreams from all stages of my life, back clear as day though in an inside space -that is, I have become lost inside. Once I re-in the dream, I can remember the events fluidly, re-living the experience in a flash, slow, or any dream time as it'all the parts are there and waiting to be flashed on the screen. I re-member everything abouout being there, but only for that moment. It isn't lost, only replaced by the next dream, which is then everything I see inside. SLSeeing so many, the feeling of a map has developed. Dream memories fit into neighborhoods that fit into space with other dreams. Some from the same neighborhood some very diferent and foreign. BUt all seen to fit into the space -into the map that is. At night I have been  haveing new dreams i these nerighborhoods, in my dreams I always know them -that is I never question where I am-, but it's only after I wake tha I ...
+(2015,12,14)
+dream memories (part 2)
+stoned thought
+part 1 -description of an overwherlming -in physical time alone- state of my being.
+...after I wake that I say, "ah, I was back in that place. In that neighborhood!" Some of these neighborhoods have been with me my intire life. I remember them from childhood, popping in and out of my nights, for some reason carrying over as odd memories and feelings into my days, then again in my teens, acollege, adulthood, now. In a way these neighborhoods are more stable, more me, than the places others know. I often say, "When I think back over my life, my memories are either of dreams, of 'this' world, or of some place inbetween which I careless to clasify -and toutside above sentance, I would say I calreless to classify the others as well. I know them all so well. So equally. 
+(2015,12,14)
+checking
+programming
+why is Memory limited to 1023 characters aprox 1000 if it wants to run?????
+here is a random string of thought... trying to see how many characters fit into this entery. I am not thinking alone, I am thinking with others. I am not sure hwat this means, but I know it is correct. I mean it is correct that my thiking is with others. We are thinking together . not talking but thinking. thinging. thinking. with others. We are thinking with others. We are thinking together with others. Others. Others thinking together with others thinking together with others, thinking together. This is the togetherness of thinking together together together together... this is a long long enterm I thougth I would cut me off by now, but it hasen't.  I would have cut me off long ago, long ago, long ago. I would hav ecut me off long ago long ago long ago, cut off long ago I cut it off long ago I cut it off with others long ago I cut it off, with others always with others I cut it off a long while agao, with others..and it is still going. this seems differernt than before. when it dodn't go long. 
+(2015,12,14)
+memory
+memory
+worrell
+short idea
+(2015,12,14)
+programming
+memory program
+seeing if the clear function works
+testing the new clear function
+(2015,12,15)
+past memory -from last year.
+Philosophical Investigations ; inhttp://gormendizer.co.za/wp-content/uploads/2010/06/Ludwig.Wittgenstein.-.Philosophical.Investigations.pdf ;   copy saved in memory_items_folder
+part 1 of memories around Philosophical Investigations
+II recently changed by daily routine from traditional writing to writing computer code. The problem I have been having in traditional writing is p hknowning how best to send a clear message. It depends so much on the environment, the context, of the res  rest of the writing and the state of the reader for interpretation.  In logic programming the message can be precise -logically clear- however. I somehow gathered this feeling reading Philosophical Investigations by Ludwig Wittgenstein -I saw somehow as I am sure it is true, but I am not sure why. FiAfter reading all my thinking was on the subect of human perception. The fact that we cannot all percieve the same from any sense. What must one do to send aclear message accross void of mind to mind. inishing the book I went directly to Luke Iannini -who happened to be visiting his brother Julian in Glendora- to discuss questions that had arrisen while reading and he was on the same line of thinking, thought luke, a programming for life, was thinking through
+(2015,12,17)
+past memory -last year
+Philosophical Investigations ; http://gormendizer.co.za/wp-content/uploads/2010/06/Ludwig.Wittgenstein.-.Philosophical.Investigations.pdf ; copy saved in memory_items_folder       
+part 2 of memories around Philosophical Investigations    
+Luke ...a programmer for life, was thinking through the same lens but coming from thinkin of the new potential for Virtual Reality. Luke and I agreed that there appears to be potential for a new form of personal computing.
+(2015,12,17)
+Jason Worrell 
+testing voice recorder
+So I am trying to enter in some new things into the memory program and one of the things I would like to do is see if I can get some voice transcription and so I want to see if I can use this iPhone app to translate to text program to bring that memory just I think you have a moment to you a text file
+first voice recording
+(2015,12,20)
+Learning from Luke Iannini
+discussion 
+learning coding skills from Luke Iannini
+Have been spending time with Luke Iannini in Oakland for the weekend. Today he discussed his method of code structuring -at eleast the structure underlying the current version of Rumpis. I am now attempoing to implement Modules into Memory.hs
+(2016,1,10)
