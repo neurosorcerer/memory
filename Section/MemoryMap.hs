@@ -6,7 +6,7 @@ import System.Directory
 import Memory
 
 --
---START MEMORTMAP SECTION
+--START MEMORYMAP SECTION
 --
 
 memory_help _ = do
