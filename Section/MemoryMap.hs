@@ -5,10 +5,6 @@ import Data.Char
 import System.Directory
 import Memory
 
---
---START MEMORYMAP SECTION
---
-
 memory_help _ = do
      clearScreen
      setCursorPosition 1 0
