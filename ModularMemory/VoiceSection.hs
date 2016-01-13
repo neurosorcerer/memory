@@ -1,4 +1,3 @@
---START VOICEMAP SECTION::
 module VoiceSection where 
 
 import System.Environment
@@ -14,40 +13,14 @@ import GHC.Exts
 import Data.List.Split (splitOn)
 import Data.Ord
 import Text.Read
-import FunctionSection
 
 
---VOICE DATA TYPE : voice recording translated into text
-data VoiceMap = VoiceMap
-  { vPerson    :: String
-  , vContext   :: String
-  , vFile      :: String
-  , vComments  :: String
-  , vDate      :: String
-  } deriving Show 
-
---VOICE MAP FUNCTIONS
+--START VOICEMAP SECTION::
 --
---Parse VoiceMap: Parse input into VoiceMap
-parseVoiceMap  ::  [String] -> [VoiceMap]
-parseVoiceMap (va:vb:vc:vd:ve:vxs) = VoiceMap {vPerson=va, vContext=vb, vFile=vc, vComments=vd, vDate=ve}:parseVoiceMap vxs
-parseVoiceMap _             = []
-
---Searches for work in VoiceMap
-isSearchWordInVoiceMap :: String -> VoiceMap -> Bool
-isSearchWordInVoiceMap x VoiceMap {vPerson=svPerson, vContext=svContext, vFile=svFile, vComments=svComments, vDate=svDate}
-                              = x `isInfixOf` svPerson  || x `isInfixOf` svContext 
-                             || x `isInfixOf` svFile || x `isInfixOf` svComments 
-                             || x `isInfixOf` svDate       
-
---VoiceMap: Takes information out of VoiceMap and puts into String.
-searchVoiceList (VoiceMap {vPerson=slPerson, vContext=slContext, vFile=slFile, vComments=slComments, vDate=slDate}:xss)
-             = slPerson:slContext:slFile:slComments:slDate :searchVoiceList xss
-searchVoiceList _ = []
-
 
 voice_help _ = do
-     setScreen
+     clearScreen
+     setCursorPosition 1 0
      setSGR [ SetConsoleIntensity BoldIntensity ]
      putStrLn ("\n" ++ "VOICE HELP MENU:"++"\n"++"\n")
      setSGR [ SetUnderlining SingleUnderline ]      
@@ -85,7 +58,8 @@ voice_help _ = do
      setSGR [Reset]
 
 voice_add _  = do 
-     setScreen
+     clearScreen
+     setCursorPosition 1 0
      putStr "Who's Voice is this?: " 
      vPerson        <- getLine 
      putStr "What is the Context of this recording?: "
@@ -114,10 +88,12 @@ voice_add _  = do
         else do putStr ("\n"++ "That Voice File does not exist:" ++ "\n")
 
 voice_view _ = do
-    setScreen
+    clearScreen
+    setCursorPosition 1 0
     contents     <- readFile "workingVoiceMemory.txt"
     putStrLn ("\n" ++ "Your Voice Memories Dr. Worrell:" ++ "\n")
-    setBlueCyan
+    setSGR [ SetColor Foreground Vivid Blue ]
+    setSGR [ SetColor Background Vivid Cyan ]
     putStrLn contents
     setSGR [ Reset ]
     putStr ("\n" ++ "Press any key to clear screen and return to Main Menu:")
@@ -127,7 +103,8 @@ voice_view _ = do
 
 voice_search _ = do
 
-     setScreen
+     clearScreen
+     setCursorPosition 1 0
      fileExists  <- doesFileExist "workingVoiceMemory.txt"
      if fileExists
         then do memoryLines <- readFile "workingVoiceMemory.txt"
@@ -149,7 +126,8 @@ voice_search _ = do
                 if searchListPosition == []
                    then putStrLn ("\n"++ "Sorry, search term returned zero results.")      
                    else do writeFile "temporaryVoiceMemory.txt" (tempMemorySMP)
-                           setBlueCyan
+                           setSGR [ SetColor Foreground Vivid Blue ]
+                           setSGR [ SetColor Background Vivid Cyan ]
                            putStrLn organizeSMP
                            setSGR [ Reset ]
      else putStr ("\n"++ "ERROR: Voice Memory folder is missing. Please return folder to Memory program:" ++ "\n") 
@@ -174,7 +152,8 @@ voice_focus _ =  do
          tempFocusMemorySMP      = unlines searchListTempPosition
      if searchListTempPosition == []
         then putStrLn ("\n"++ "Sorry, focused search term returned zero results.") 
-        else do setBlueCyan
+        else do setSGR [ SetColor Foreground Vivid Blue ]
+                setSGR [ SetColor Background Vivid Cyan ]
                 putStrLn organizeTempSMP
                 setSGR [ Reset ]
                 writeFile "temporaryVoiceMemory.txt" (tempFocusMemorySMP)
@@ -182,4 +161,3 @@ voice_focus _ =  do
                 key <- getLine
                 clearScreen
                 setCursorPosition 1 0
-

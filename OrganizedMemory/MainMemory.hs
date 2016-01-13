@@ -1,11 +1,11 @@
 --MAIN
-
+import TypeFileSection
+import FunctionSection
 import DispatchSection 
 import MemorySection
 import HeartRateSection
 import VoiceSection
 import WordSortSection
-
 
 
 main = forever $do
