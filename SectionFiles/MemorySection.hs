@@ -1,10 +1,28 @@
 module MemorySection where
     
-import System.Console.ANSI
-import Data.Time
-import Data.Char
+import System.Environment
 import System.Directory
+import System.IO
+import Data.List
+import Control.Exception
+import Data.Time
+import Control.Monad
+import Data.Char
+import System.Console.ANSI
+import GHC.Exts
+import Data.List.Split (splitOn)
+import Data.Ord
+import Text.Read
+import FunctionSection
 
+
+data MemoryMap = MemoryMap 
+  { mType     :: String
+  , mPath     :: String
+  , mComments :: String
+  , mItem     :: String  
+  , mDate     :: String  
+  } deriving Show
 
 --MEMORY MAP FUNCTIONS
 --

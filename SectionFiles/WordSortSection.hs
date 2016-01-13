@@ -15,6 +15,7 @@ import GHC.Exts
 import Data.List.Split (splitOn)
 import Data.Ord
 import Text.Read
+import FunctionSection
 
 
 internalhelp _ = do

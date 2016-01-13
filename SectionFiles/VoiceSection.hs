@@ -14,7 +14,17 @@ import GHC.Exts
 import Data.List.Split (splitOn)
 import Data.Ord
 import Text.Read
+import FunctionSection
 
+
+--VOICE DATA TYPE : voice recording translated into text
+data VoiceMap = VoiceMap
+  { vPerson    :: String
+  , vContext   :: String
+  , vFile      :: String
+  , vComments  :: String
+  , vDate      :: String
+  } deriving Show 
 
 --VOICE MAP FUNCTIONS
 --
