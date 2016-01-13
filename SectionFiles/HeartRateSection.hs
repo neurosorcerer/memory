@@ -1,4 +1,4 @@
-module Section.HeartRateMap where 
+module HeartRateSection where 
 
 import System.Environment
 import System.Directory
@@ -13,10 +13,7 @@ import GHC.Exts
 import Data.List.Split (splitOn)
 import Data.Ord
 import Text.Read
-import MemoryType
-import VoiceType
-import HeartRateType
-import GeneralFunctions
+
 
 
 heartRate_help _ = do
